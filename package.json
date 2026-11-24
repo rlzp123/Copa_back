@@ -1,17 +1,14 @@
 {
   "name": "copa-back",
-  "version": "2.0.0",
-  "description": "API do Mercado da Copa: autenticação JWT, catálogo, pedidos, vendas, trocas, chat, avaliações e notificações.",
+  "version": "1.0.0",
+  "description": "Backend para Copa Mercado",
   "main": "api/index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "node api/index.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.3",
-    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2"
+    "express": "^4.18.2"
   }
 }
